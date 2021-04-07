@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    padding-top: 20px;
+    padding-left: 28px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.menuButton{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 17px;
+    width: 20px;
+    border: none;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.menuLine{
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #1f2022;
+    border-radius: 20px;
+}
+
+.inputGroup{
+    margin-left: 59px;
+    background-color: #EBEBEB;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 17px;
+    width: 50%;
+}
+
+.inputSearch{
+    background-color: transparent;
+    border:none;
+    padding: 12px 23px;
+    width: 97%;
+}
+.inputSearch:focus, .inputSearch:active {
+    border-radius: 20px;
+}
+.buttonSearch{
+    padding: 0px;
+    height: 19px;
+    width: 19px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.iconsearch{
+    fill: #1f2022;
+    transition: fill 1s;
+}
+.iconsearch:hover{
+    fill: red;
+}
+.icons{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.iconsLink {
+    text-decoration: none;
+    opacity: 0.24;
+    transition: opacity 1s;
+}
+.iconsLink:hover{
+    opacity: 0.7;
+}
+.iconsLink:not(:last-child){
+    margin-right: 50px;
+}
+.user{
+    margin-left: 50px;
+}
+.userAvatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

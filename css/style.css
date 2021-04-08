@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 *{
     box-sizing: border-box;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 .header{
     padding-top: 20px;
@@ -12,6 +15,7 @@ body{
     padding-right: 70px;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .menuButton{
@@ -95,4 +99,45 @@ body{
     height: 40px;
     width: 40px;
     border-radius: 50%;
+}
+.sidebar{
+    padding-left: 28px;
+}
+.navMenu{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding: 0px;
+    list-style: none;
+}
+.navItem{
+    margin-bottom: 28px;
+}
+.navLink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #1d1c1c;
+}
+.navLink svg, .navLink .navText{
+    opacity: 0.36;
+}
+.navItem:hover .navText{
+    opacity: 1 !important;
+    color:red;
+}
+.navText{
+    margin-left: 13px;
+    transition: color 0.5s, opacity 0.5s;
+}
+
+.navImage{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+.navTitle{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    margin-bottom: 30px;
 }
